@@ -138,6 +138,13 @@ legacy/        Notes pointing to older, separate project infrastructure
 
 The older computational Resilience Index pipeline based on All of Us / HMP-resistome demonstration data is intentionally kept separate from this research repository.
 
+## Research infrastructure
+
+- [Research Status](RESEARCH_STATUS.md)
+- [Scientific Project Diagram](docs/science/project-diagram.md)
+- [Scoring Engine v0.1](docs/science/scoring-engine-v0.1.md)
+- [Funder Readiness](docs/funding/funder-readiness.md)
+
 ## Core documents
 
 The project documentation includes:
