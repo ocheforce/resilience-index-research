@@ -1,6 +1,6 @@
-# Resilience Index — Scientific Reference Standard Framework v0.1
+# Resilience Index — Scientific Reference Standard Framework v0.2
 
-**Status:** Working scientific framework for pilot preparation  
+**Status:** Decision-locked framework for pilot preparation  
 **Date:** October 2026  
 **Project:** Resilience Index — Making recovery capacity measurable
 
@@ -325,7 +325,27 @@ Therefore:
 5. Tombaugh TN. Trail Making Test A and B: Normative data stratified by age and education. Archives of Clinical Neuropsychology. 2004;19(2):203–214.
 6. Published demographic normative studies for Digit Span, to be selected based on administration compatibility and target age/education range.
 
-## 17. Decision rule
+## 17. Decision-locked variable disposition
+
+### CRP — NOT PRODUCTION-READY
+The Nigerian study is retained as Tier 1 candidate evidence. It reports raw-scale mean/range but does not provide the transformed ln(CRP+1) mean and SD required by the scoring specification. The assay also differs from the planned point-of-care method. No CRP reference parameters enter production scoring until compatible transformed parameters are obtained.
+
+### HbA1c — NOT PRODUCTION-READY
+The Nigerian Port Harcourt study is retained as Tier 1 candidate evidence. Its nonparametric reference interval and raw-scale mean do not provide the SD required by the current z-score implementation. The study's boronate-affinity method must also be compared with the pilot assay. No SD will be inferred from the reference interval.
+
+### ln-rMSSD — NOT PRODUCTION-READY
+The Nigerian HRV study is strong Tier 1 candidate evidence (n=840; age 15–40), but it reports RMSSD, not ln-rMSSD. The raw mean and SD cannot be transformed by simply taking logarithms. Recording and acquisition compatibility must also be established.
+
+### TMT-B — REFERENCE-TABLE PATH
+Tombaugh's 911-person normative dataset is retained as Tier 3 candidate evidence because it explicitly stratifies by age and education. The project should implement the published normative table rather than collapse it into one universal mean/SD. The exact administration must be matched before production use. The source confirms age and education effects. citeturn0search0turn0search2
+
+### Digit Span — REFERENCE-TABLE PATH
+The Brazilian adult normative study provides age/education-stratified data for adults 19–75 and demonstrates education effects, but it is not Nigerian and should remain Tier 3 candidate evidence. It may support a sensitivity/reference-table pathway only after exact administration and cultural/linguistic compatibility are assessed. citeturn0search5turn0search6
+
+### Pilot reference decision
+The project will not promote any of the five current candidates to production merely to complete the score. The scoring engine remains deliberately blocked until the reference evidence satisfies the registry gate.
+
+## 18. Decision rule
 
 **No reference value enters the scoring engine merely because it is published.**
 
