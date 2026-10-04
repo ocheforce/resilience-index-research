@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Resilience Index"
+message: "If you use this repository or its research outputs, please cite the project."
+type: software
+authors:
+  - family-names: "Wisdom"
+    given-names: "Ali"
+    affiliation: "Independent biomedical research"
+repository-code: "https://github.com/ocheforce/resilience-index-research"
+abstract: "Open biomedical research investigating whether multidomain physiological and cognitive recovery can be measured longitudinally following real-world stress."
+keywords:
+  - resilience
+  - recovery
+  - biomedical research
+  - heart rate variability
+  - cognitive performance
+  - CRP
+  - HbA1c
+  - longitudinal research
