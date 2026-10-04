@@ -24,15 +24,15 @@ The current scoring engine is correctly blocked from using unverified external p
 
 ## Evidence anchors
 
-The Nigerian CRP study reports n=120, raw hs-CRP mean 2.3 mg/L and range 0.62–11.64 mg/L, but does not provide the transformed distribution required by the score. citeturn1search0
+The Nigerian CRP study reports n=120, raw hs-CRP mean 2.3 mg/L and range 0.62–11.64 mg/L, but does not provide the transformed distribution required by the score.
 
-The Nigerian HbA1c study reports n=172, mean 4.84%, and a nonparametric reference interval of 4.0–5.9%; the source explicitly describes skewness, so the interval should not be reverse-engineered into an SD. citeturn0search13
+The Nigerian HbA1c study reports n=172, mean 4.84%, and a nonparametric reference interval of 4.0–5.9%; the source explicitly describes skewness, so the interval should not be reverse-engineered into an SD.
 
-The Nigerian HRV study reports n=840 and RMSSD 57 ± 49 ms, with sex differences and methodological/contextual determinants; it does not provide the required ln-rMSSD distribution. citeturn0search15
+The Nigerian HRV study reports n=840 and RMSSD 57 ± 49 ms, with sex differences and methodological/contextual determinants; it does not provide the required ln-rMSSD distribution.
 
-Tombaugh's TMT norms use 911 adults and stratify by age and education, supporting a normative-table implementation rather than a universal cutoff. citeturn0search0turn0search2
+Tombaugh's TMT norms use 911 adults and stratify by age and education, supporting a normative-table implementation rather than a universal cutoff.
 
-The Brazilian Digit Span study provides adult normative data with education-stratified groups and reports education effects; it remains external candidate evidence rather than a Nigerian norm. citeturn0search5turn0search6
+The Brazilian Digit Span study provides adult normative data with education-stratified groups and reports education effects; it remains external candidate evidence rather than a Nigerian norm.
 
 ## Next evidence actions
 
