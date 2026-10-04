@@ -1,15 +1,17 @@
 # Tests
 
-Automated tests will verify deterministic scientific transformations before analysis.
+Automated tests verify deterministic scientific transformations before analysis.
 
-Planned test coverage includes:
+Current v0.1 coverage:
 
-- CRP transformation
-- z-score direction correction
-- domain means
-- RI_5050 and RI_6040
-- deficit floor at zero
-- trapezoidal area with unequal intervals
-- interpolation for a single internal missing touchpoint
-- edge-missingness flags
-- sport-specific performance-change calculations
+- blocking of unverified reference parameters;
+- CRP transformation;
+- z-score direction correction;
+- RI_5050 and RI_6040;
+- deficit floor at zero;
+- trapezoidal area with unequal intervals;
+- single internal missing-touchpoint interpolation;
+- edge-missingness protection;
+- recovery tolerance.
+
+Tests use synthetic values only. They do not constitute validation of the Resilience Index in human participants.
