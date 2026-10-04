@@ -15,6 +15,6 @@ Core scientific documents:
 7. Risk Management Plan v1.1
 8. Dissemination and Impact Plan v1.1
 
-Any substantive scientific change must be versioned and documented. The repository must not silently overwrite a frozen protocol.
+Reference-standard framework v0.2 and reference registry v0.2 are the current decision-controlled reference documents.\n\nAny substantive scientific change must be versioned and documented. The repository must not silently overwrite a frozen protocol.
 
 The older All of Us / HMP-resistome demonstration pipeline remains a separate project and is not part of this repository.
