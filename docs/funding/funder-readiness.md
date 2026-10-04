@@ -43,10 +43,11 @@ The repository does not claim that:
 
 The GitHub repository is supporting evidence for rigor and reproducibility; it is not a substitute for the grant application's scientific case, team, institutional pathway, ethics plan, or funder-specific requirements.
 
-## Immediate remaining infrastructure work
+## Remaining infrastructure work
 
 1. Verify and document every scoring reference parameter before it can enter production scoring.
-2. Add a repository licence appropriate to code and documentation.
-3. Create a persistent archive/DOI for a stable release.
-4. Keep the research-status page updated as validation milestones occur.
-5. Prepare funder-specific application materials rather than sending the repository alone.
+2. Create a persistent archive/DOI for a stable release.
+3. Keep the research-status page updated as validation milestones occur.
+4. Prepare funder-specific application materials rather than sending the repository alone.
+
+The repository now has a software licence, package metadata, a deterministic scoring engine, automated unit tests, a scientific project diagram, and a public research-status page.
